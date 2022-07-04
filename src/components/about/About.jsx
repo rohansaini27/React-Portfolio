@@ -21,24 +21,26 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>2.5+ Years Working</small>
+                            <small>3+ Years Working</small>
 
                         </article>
                         <article className='about__card'>
                             <ImUserTie className='about__icon' />
-                            <h5>Clients</h5>
-                            <small>3+ Worldwide Clients</small>
+                            <h5>Organizations</h5>
+                            <small>2 MNC's</small> <br/>                            
 
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>4+ Completed</small>
+                            <small>3 Completed</small>
 
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum perspiciatis corrupti velit maiores rerum iusto fugiat eum quo ducimus facilis vero vitae obcaecati voluptas provident dignissimos blanditiis omnis asperiores alias possimus consequuntur, architecto repellat.
+                    I am 25 years young FrontEnd developer residing in Ghaziabad, Uttar Pradesh. 
+                    I love to drink tea and I like to visit Chandigarh to meet my college friends on weekends. 
+                    My favorite free time activities are swimming and to cook food for family and friends.
                     </p>
                     <a href="#contact" className='btn btn-primary'> Let's Talk</a>
                 </div>

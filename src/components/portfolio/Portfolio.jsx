@@ -11,24 +11,28 @@ const data = [
         image: IMG1,
         title: 'Personal Portfolio',
         github: 'https://github.com/rohansaini27/React-Portfolio.git',
+        // demo:
     },
     {
         id:2,
         image: IMG2,
-        title: 'Project-2',
+        title: 'Project-2 (Coming Soon)',
         github: 'https://github.com/rohansaini27',
+        // demo:
     },
     {
         id:3,
         image: IMG3,
-        title: 'Project-3',
+        title: 'Project-3 (Coming Soon)',
         github: 'https://github.com/rohansaini27',
+        // demo:
     },
     {
         id:4,
         image: IMG4,
-        title: 'Project-4',
+        title: 'Project-4 (Coming Soon)',
         github: 'https://github.com/rohansaini27',
+        // demo:
     }
 
 ]
@@ -50,7 +54,7 @@ const Portfolio = () => {
                             <h3>{title}</h3>
                             <div className="portfolio__item-cta">
                                 <a href={github} className='btn' target='_blank' >Github</a>
-                                {/* <a href="http://github.com" className='btn btn-primary' target='_blank' >Live Demo</a> */}
+                                <a href='https://github.com' className='btn btn-primary' target='_blank' >Live Demo</a>
                             </div>
                         </article>
                         )
